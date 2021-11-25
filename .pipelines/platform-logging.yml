@@ -12,13 +12,13 @@ trigger:
   branches:
     include:
       - main
-    exclude:
-      - merge
   paths:
     include:
       - landingzones/lz-platform-logging
       - .pipelines/platform-logging.yml
       - .pipelines/templates/steps/deploy-platform-logging.yml
+
+pr: none
 
 resources:
   pipelines:
