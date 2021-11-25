@@ -12,6 +12,8 @@ trigger:
   branches:
     include:
       - main
+    exclude:
+      - merge
   paths:
     include:
       - landingzones/lz-platform-logging
